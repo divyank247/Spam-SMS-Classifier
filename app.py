@@ -5,7 +5,6 @@ from nltk.corpus import stopwords
 import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
-nltk.data.path.append("C:\\Users\\Sanjay\\AppData\\Roaming\\nltk_data")
 from nltk.stem.porter import PorterStemmer
 
 ps = PorterStemmer()
