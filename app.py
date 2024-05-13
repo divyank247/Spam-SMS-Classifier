@@ -3,6 +3,7 @@ import pickle
 import string
 from nltk.corpus import stopwords
 import nltk
+nltk.data.path.append("D:\\sms-spam-classification\\.venv\\nltk_data")
 from nltk.stem.porter import PorterStemmer
 
 ps = PorterStemmer()
